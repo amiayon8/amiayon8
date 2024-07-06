@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <link rel="stylesheet" href="styles/style.css"/>
+      <title>Sarker Ayon</title>
+   </head>
+   <body>
+      <div id="preloader">
+         <div class="open-top"></div>
+         <div class="open-bottom"></div>
+         <img class="preload-logo" src="img/full_logo_light.webp">
+      </div>
+      <div id="closer">
+         <div class="close-top"></div>
+         <div class="close-bottom"></div>
+         <img class="close-logo" src="img/full_logo_light.webp">
+      </div>
+      <nav>
+         <button class="nav-brand">
+         <img class="full-logo">
+         </button>
+         <button onclick="changetheme()" class="nav-theme" id="dark-toggle"><i class="fa-solid fa-moon nav-theme-ic"></i></button>
+         <button onclick="changetheme()" class="d-none nav-theme" id="light-toggle"><i class="fa-solid fa-sun nav-theme-ic"></i></button>
+         <button class="hamburger-toggle" onclick="toggleSidebar()"><i class="fa-solid ham-ic fa-bars-staggered"></i></button>
+         <div class="mobile-nav close">
+            <ul>
+               <button onclick="goto('design/index.html')">
+                  <li>Design<i class="fa-solid forward-icon fa-circle-right"></i></li>
+               </button>
+               <button onclick="goto('photos/index.html')">
+                  <li>Photos<i class="fa-solid forward-icon fa-circle-right"></i></li>
+               </button>
+               <button onclick="goto('look-book/index.html')">
+                  <li>Look Book<i class="fa-solid forward-icon fa-circle-right"></i></li>
+               </button>
+               <button onclick="goto('about/index.html')">
+                  <li>About<i class="fa-solid forward-icon fa-circle-right"></i></li>
+               </button>
+               <li class="foot">
+                  <div class="footer">
+                     <div class="logo"><img width="100" class="full-logo"></div>
+                     <div class="mail"><a href="mailto:2640c83ayonrumc@gmail.com">2640c83ayonrumc@gmail.com</a></div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <main>
+         <section>
+            <h1 class="main-text">Webdesigner</h1>
+            <h2 class="main-text2">& Photographer</h2>
+            <p class="second-text">based in Dhaka, Bangladesh</p>
+         </section>
+         <section class="buttons">
+            <button onclick="goto('design/index.html')" class="normal-btn hover">See my creations</button>
+            <button onclick="goto('photos/index.html')" class="hollow-btn hover">Discover my photos</button>
+         </section>
+         <div class="person">
+            <img src="img/person.webp">      
+         </div>
+      </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+function getCookie(name) {
+    let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) {
+        return match[2];
+    }
+    return null;
+}
+$(document).ready(function () {
+             // Initial setup when the document is fully loaded
+             document.onreadystatechange = function () {
+                 if (document.readyState === "complete") {
+                   const queryString = window.location.search;
+         const urlParams = new URLSearchParams(queryString);
+                   const themeCookie = getCookie("theme");
+
+         if(themeCookie == 'dark'){
+           $('body').addClass('dark');
+           $('.logo').attr('src', 'img/logo_light.webp');     
+           $('.full-logo').attr('src', 'img/full_logo_light.webp');                 
+           $('#dark-toggle').addClass('d-none');
+           $('#light-toggle').removeClass('d-none');
+           document.cookie = "theme=dark";        
+         }            
+           else if(themeCookie == 'light'){
+           $('body').removeClass('dark');
+           $('.logo').attr('src', 'img/logo_dark.webp');    
+           $('.full-logo').attr('src', 'img/full_logo_dark.webp');                   
+           $('#light-toggle').addClass('d-none');
+           $('#dark-toggle').removeClass('d-none');
+           document.cookie = "theme=light";        
+         } else {
+           document.cookie = "theme=light";
+           $('.logo').attr('src', 'img/logo_dark.webp');
+           $('.full-logo').attr('src', 'img/full_logo_dark.webp');
+           $('body').removeClass('dark');              
+         }
+                                                        
+                     // Hide preloader and animate text
+                     document.querySelector(".open-top").style.left = "-500vw";
+                     document.querySelector(".open-bottom").style.right = "-500vw";
+                     document.querySelector(".preload-logo").style.right = "-500vw";    
+                     
+                     // Animate the main text from left to its final position
+                     setTimeout(function() {
+                         $(".main-text").css("left", "0");
+                     }, 400); // Delay to match the preloader animation
+         
+                     setTimeout(function() {
+                         $(".main-text2").css("right", "0");
+                         $(".second-text").css("right", "0");
+                     }, 400); // Delay to match the preloader animation
+                 }
+             };
+         });
+         
+         function toggleSidebar() {
+             const $nav = $('.mobile-nav');
+             const $icon = $('.ham-ic');
+         
+             if ($nav.hasClass('open')) {
+                 // Start closing animation
+                 $nav.css('height', '0');
+                 setTimeout(function() {
+                     $nav.css('bottom', '-200vh');
+                     $nav.css('display', 'none');
+                     $nav.removeClass('open').addClass('close');
+                 }, 1000); // Delay to match the closing animation
+         
+         // Rotate and move icon
+                 $icon.css('transition', 'transform 0.5s ease');
+                 $icon.css('transform', 'rotate(-360deg)');
+                 
+                 setTimeout(function() {
+                     $icon.css('transition', 'transform 0.2s ease');
+                     $icon.css('transform', 'rotate(-360deg) translateX(100%)');
+                 }, 500); // Match the duration of the rotation animation
+                 
+                 setTimeout(function() {
+                     $icon.removeClass('fa-xmark').addClass('fa-bars-staggered');
+                     $icon.css('transform', 'translateX(0)');
+                 }, 700); // Match the duration of the translateX animation
+             
+             } else {
+                 // Show and start opening animation
+                 $nav.css('display', 'block').css('bottom', '0');
+                 setTimeout(function() {
+                     $nav.css('height', 'calc(90vh - var(--nav))');
+                     $nav.removeClass('close').addClass('open');
+                 }, 200); // Delay to match the opening animation
+         
+                 // Rotate and move icon
+                 $icon.css('transition', 'transform 0.5s ease');
+                 $icon.css('transform', 'rotate(360deg)');
+                 
+                 setTimeout(function() {
+                     $icon.css('transition', 'transform 0.2s ease');
+                     $icon.css('transform', 'rotate(360deg) translateX(-100%)');
+                 }, 500); // Match the duration of the rotation animation
+                 
+                 setTimeout(function() {
+                     $icon.removeClass('fa-bars-staggered').addClass('fa-xmark');
+                     $icon.css('transform', 'translateX(0)');
+                 }, 700); // Match the duration of the translateX animation
+             }
+         }
+function goto(url){
+           
+                     // Animate the main text from left to its final position
+                     setTimeout(function() {
+                         $(".main-text").css("left", "0");
+                     }, 400); // Delay to match the preloader animation
+         
+                     setTimeout(function() {
+                         $(".main-text2").css("right", "0");
+                         $(".second-text").css("right", "0");
+                     }, 400); // Delay to match the preloader animation
+                 
+           // Hide preloader and animate text
+                     document.querySelector(".close-top").style.top = "0";
+                     document.querySelector(".close-bottom").style.bottom = "0";
+                     document.querySelector(".close-logo").style.bottom = "5vh";    
+                     setTimeout(function() {               
+          window.location.replace('http://' + window.location.host + '/' + url);
+                     }, 2000);
+         }
+         function addurlparam(url){
+           
+                     // Animate the main text from left to its final position
+                     setTimeout(function() {
+                         $(".main-text").css("left", "0");
+                     }, 400); // Delay to match the preloader animation
+         
+                     setTimeout(function() {
+                         $(".main-text2").css("right", "0");
+                         $(".second-text").css("right", "0");
+                     }, 400); // Delay to match the preloader animation
+                 
+           // Hide preloader and animate text
+                     document.querySelector(".close-top").style.top = "0";
+                     document.querySelector(".close-bottom").style.bottom = "0";
+                     document.querySelector(".close-logo").style.bottom = "5vh";    
+                     setTimeout(function() {               
+          window.location.replace('http://' + window.location.host + '/' + url);
+                     }, 2000);
+         }
+
+function changetheme(){
+  const themeCookie = getCookie("theme");
+
+  if(themeCookie == 'light'){
+             $('body').addClass('dark');
+           $('.logo').attr('src', 'img/logo_light.webp');     
+           $('.full-logo').attr('src', 'img/full_logo_light.webp');                 
+           $('#dark-toggle').addClass('d-none');
+           $('#light-toggle').removeClass('d-none');
+           document.cookie = "theme=dark";     
+              
+         }
+  else{
+              $('body').removeClass('dark');
+           $('.logo').attr('src', 'img/logo_dark.webp');    
+           $('.full-logo').attr('src', 'img/full_logo_dark.webp');                   
+           $('#light-toggle').addClass('d-none');
+           $('#dark-toggle').removeClass('d-none');
+           document.cookie = "theme=light";        
+         }
+}
+                     
+      </script>
+   </body>
+</html>
