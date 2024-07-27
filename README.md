@@ -13,7 +13,6 @@
 <p align="left">
 <a href="https://instagram.com/amiayon8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="amiayon8" height="30" width="40" /></a>
   <a href="https://instagram.com/thenicedeveloper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thenicedeveloper" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/https://youtube.com/toptech1234" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://youtube.com/toptech1234" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
