@@ -13,6 +13,7 @@
 <p align="left">
 <a href="https://instagram.com/amiayon8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="amiayon8" height="30" width="40" /></a>
   <a href="https://instagram.com/thenicedeveloper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thenicedeveloper" height="30" width="40" /></a>
+  <a href="https://linktr.ee/amiayon" target="blank"><img align="center" src="https://www.svgrepo.com/download/330844/linktree.svg" alt="amiayon" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
