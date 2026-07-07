@@ -1,4 +1,4 @@
-# Hi there, I'm Sarker Ayon 👋
+# Hi there, I'm Sarker Ayon
 ### Full-Stack Developer & Digital Architect
 
 I bridge the gap between complex backend engineering and minimalist, premium UI/UX. As a developer based in Bangladesh—and a student at Rajuk Uttara Model College—I focus on building scalable SaaS ecosystems and high-performance digital products that are as intuitive as they are technically robust. 
@@ -75,7 +75,7 @@ When I'm not optimizing server architecture or styling with Tailwind CSS, you'll
 <div align="center">
   <em>"Good design is obvious. Great design is transparent."</em>
   <br/><br/>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=dark&animation=default&layout=default&font=default&quoteType=random&fontColor=orange" alt="Random Dev Quote" />
   <br/><br/>
   <img src="https://visitcountpro.itsvg.in/api?id=amiayon8&label=Profile%20Views&pretty=true" alt="Profile Views" />
 </div>
