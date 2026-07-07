@@ -53,17 +53,6 @@ When I'm not optimizing server architecture or styling with Tailwind CSS, you'll
   <img src="https://nirzak-streak-stats.koyeb.app?user=amiayon8&theme=codestackr&hide_border=true&border_radius=12" alt="Ayon's Streak" />
 </div>
 
-<br/>
-
-### 🏆 Trophies & Contributions
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amiayon8&theme=ambient_gradient&no-frame=false&no-bg=true&margin-w=4" alt="Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=amiayon8&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos" />
-</div>
-
 ---
 
 ### 🌐 Let's Connect
