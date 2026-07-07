@@ -77,7 +77,7 @@ When I'm not optimizing server architecture or styling with Tailwind CSS, you'll
   <br/><br/>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
   <br/><br/>
-  <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=amiayon8&icon=0&color=4" alt="Profile Views" /></a>
+  <img src="https://visitcountpro.itsvg.in/api?id=amiayon8&label=Profile%20Views&pretty=true" alt="Profile Views" />
 </div>
 
 ---
