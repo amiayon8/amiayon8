@@ -47,10 +47,10 @@ When I'm not optimizing server architecture or styling with Tailwind CSS, you'll
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amiayon8&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="Ayon's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiayon8&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=amiayon8&custom_title=Github%20Stats&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=codeSTACKr" alt="Ayon's GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=amiayon8&langs_count=8&theme=codeSTACKr" alt="Top Languages" />
   <br/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=amiayon8&theme=dark&hide_border=false" alt="Ayon's Streak" />
+  <img src="https://nirzak-streak-stats.koyeb.app?user=amiayon8&theme=codestackr&hide_border=true&border_radius=12" alt="Ayon's Streak" />
 </div>
 
 <br/>
