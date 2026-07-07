@@ -71,4 +71,4 @@ When I'm not optimizing server architecture or styling with Tailwind CSS, you'll
 
 ---
 **☕ Support My Work:** If my open-source projects or insights have helped you, consider supporting me!  
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/muktaranikm)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/thenicedeveloper)
