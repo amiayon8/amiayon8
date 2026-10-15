@@ -16,9 +16,11 @@ Whether I'm architecting a luxury storefront or a complex restaurant management 
 ### 🏆 Industry Recognition
 *   **Champion:** Bangladesh ICT and Innovation Awards 2025 
 *   **2nd Runner-Up:** APICTA 2025 (Asia-Pacific Technical Achievement) in Taiwan
+*   **Champion:** INIT 6.0 Hackathon
+*   **2nd Runner-Up:** Bangladesh ICT and Innovation Awards 2026
 
 ### ✈️ Beyond the Code
-When I'm not optimizing server architecture or styling with Tailwind CSS, you'll find me behind a camera or exploring new horizons. I’m a passionate drone enthusiast focused on aerial videography, and I've explored over 100 cities across 7 countries. These global perspectives directly influence my design thinking.
+When I'm not optimizing server architecture or styling with Tailwind CSS, you'll find me behind a camera or exploring new horizons. I’m a passionate drone enthusiast focused on aerial videography, and I've explored over 100 cities across 8 countries. These global perspectives directly influence my design thinking.
 
 ---
 
